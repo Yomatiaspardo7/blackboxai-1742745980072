@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Círculo base -->
+    <circle cx="100" cy="100" r="90" fill="#57B4BA" opacity="0.1"/>
+    
+    <!-- Símbolo de mindfulness/meditación -->
+    <path d="M100 50C83.4315 50 70 63.4315 70 80C70 96.5685 83.4315 110 100 110C116.569 110 130 96.5685 130 80C130 63.4315 116.569 50 100 50Z" 
+          fill="#57B4BA"/>
+    
+    <!-- Ondas de respiración -->
+    <path d="M60 120C80 110 120 110 140 120" 
+          stroke="#57B4BA" 
+          stroke-width="4" 
+          stroke-linecap="round"
+          fill="none"/>
+    <path d="M50 130C85 115 115 115 150 130" 
+          stroke="#57B4BA" 
+          stroke-width="3" 
+          stroke-linecap="round"
+          fill="none"/>
+    <path d="M40 140C90 120 110 120 160 140" 
+          stroke="#57B4BA" 
+          stroke-width="2" 
+          stroke-linecap="round"
+          fill="none"/>
+          
+    <!-- Detalles decorativos -->
+    <circle cx="85" cy="75" r="3" fill="#015551"/>
+    <circle cx="115" cy="75" r="3" fill="#015551"/>
+    <path d="M90 85C95 90 105 90 110 85" 
+          stroke="#015551" 
+          stroke-width="2" 
+          stroke-linecap="round"
+          fill="none"/>
+          
+    <!-- Elementos de bienestar -->
+    <g transform="translate(65,40) scale(0.15)">
+        <path d="M50 0L95 90L5 90Z" fill="#FE4F2D" opacity="0.6"/>
+    </g>
+    <g transform="translate(120,40) scale(0.15)">
+        <path d="M50 0L95 90L5 90Z" fill="#FE4F2D" opacity="0.6"/>
+    </g>
+    
+    <!-- Texto del logo (opcional) -->
+    <text x="100" y="180" 
+          font-family="Poppins, sans-serif" 
+          font-size="24" 
+          font-weight="600" 
+          fill="#57B4BA" 
+          text-anchor="middle">
+        Avelia
+    </text>
+</svg>
