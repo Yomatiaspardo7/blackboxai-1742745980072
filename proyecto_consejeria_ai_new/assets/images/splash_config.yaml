@@ -1,0 +1,143 @@
+flutter_native_splash:
+  # Configuración del color y la imagen del splash screen
+  color: "#FDFBEE"
+  image: assets/images/splash.png
+
+  # Configuración para Android 12
+  android_12:
+    color: "#FDFBEE"
+    image: assets/images/splash.png
+    icon_background_color: "#FDFBEE"
+
+  # Configuración para web
+  web: false
+
+  # Configuración general
+  fullscreen: true
+  android: true
+  ios: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_background: "#FDFBEE"
+  adaptive_icon_foreground: "assets/images/app_icon_foreground.png"
+  remove_alpha_ios: true
+  web:
+    generate: false
+  windows:
+    generate: false
+  macos:
+    generate: false
+
+# Configuración de assets
+assets:
+  - assets/images/logo.svg
+  - assets/images/splash.png
+  - assets/images/app_icon.png
+  - assets/images/app_icon_foreground.png
+  - assets/images/onboarding/
+  - assets/images/exercises/
+  - assets/audio/
+  - assets/fonts/
+
+# Configuración de fuentes
+fonts:
+  - family: Poppins
+    fonts:
+      - asset: assets/fonts/Poppins-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/Poppins-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Poppins-SemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/Poppins-Bold.ttf
+        weight: 700
+
+# Configuración de imágenes
+images:
+  # Logo principal
+  logo:
+    path: assets/images/logo.svg
+    width: 200
+    height: 200
+
+  # Splash screen
+  splash:
+    path: assets/images/splash.png
+    width: 300
+    height: 300
+
+  # Iconos de la aplicación
+  app_icon:
+    path: assets/images/app_icon.png
+    size: 1024
+
+  app_icon_foreground:
+    path: assets/images/app_icon_foreground.png
+    size: 1024
+
+  # Imágenes de onboarding
+  onboarding:
+    - path: assets/images/onboarding/welcome.png
+      description: "Pantalla de bienvenida"
+    - path: assets/images/onboarding/features.png
+      description: "Características principales"
+    - path: assets/images/onboarding/health.png
+      description: "Monitoreo de salud"
+    - path: assets/images/onboarding/mindfulness.png
+      description: "Ejercicios de mindfulness"
+
+  # Imágenes de ejercicios
+  exercises:
+    - path: assets/images/exercises/breathing.png
+      description: "Ejercicios de respiración"
+    - path: assets/images/exercises/meditation.png
+      description: "Meditación guiada"
+    - path: assets/images/exercises/body_scan.png
+      description: "Escaneo corporal"
+    - path: assets/images/exercises/grounding.png
+      description: "Técnicas de grounding"
+
+# Configuración de audio
+audio:
+  meditation:
+    - path: assets/audio/meditation_background.mp3
+      description: "Música de fondo para meditación"
+    - path: assets/audio/guided_meditation.mp3
+      description: "Meditación guiada"
+
+  breathing:
+    - path: assets/audio/breathing_guide.mp3
+      description: "Guía de respiración"
+    - path: assets/audio/calming_music.mp3
+      description: "Música relajante"
+
+# Configuración de colores
+colors:
+  primary: "#57B4BA"
+  secondary: "#015551"
+  accent: "#FE4F2D"
+  background: "#FDFBEE"
+  text: "#333333"
+  success: "#4CAF50"
+  error: "#E53935"
+  warning: "#FFA726"
+  info: "#2196F3"
+
+# Configuración de dimensiones
+dimensions:
+  splash_duration: 2000 # milisegundos
+  icon_sizes:
+    small: 24
+    medium: 48
+    large: 64
+  padding:
+    small: 8
+    medium: 16
+    large: 24
+  border_radius:
+    small: 8
+    medium: 12
+    large: 16
